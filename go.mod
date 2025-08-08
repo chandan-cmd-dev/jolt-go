@@ -1,4 +1,4 @@
-module github.com/yourname/jolt-go
+module github.com/chandan-cmd-dev/jolt-go
 
 go 1.22
 

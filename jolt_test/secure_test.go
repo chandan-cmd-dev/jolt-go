@@ -12,8 +12,8 @@ import (
 
   "golang.org/x/crypto/chacha20poly1305"
 
-  "github.com/yourname/jolt-go/jolt"
-  "github.com/yourname/jolt-go/joltsec"
+  "github.com/chandan-cmd-dev/jolt-go/jolt"
+  "github.com/chandan-cmd-dev/jolt-go/joltsec"
 )
 
 func TestEncryptDecrypt_XChaCha(t *testing.T) {

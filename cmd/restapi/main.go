@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yourname/jolt-go/jolt"
-	"github.com/yourname/jolt-go/joltsec"
+	"github.com/chandan-cmd-dev/jolt-go/jolt"
+	"github.com/chandan-cmd-dev/jolt-go/joltsec"
 )
 
 // In-memory "DB": we store canonical JOLT-B bytes for responses.

@@ -8,7 +8,7 @@ import (
     "fmt"
     "io"
 
-    "github.com/yourname/jolt-go/jolt"
+    "github.com/chandan-cmd-dev/jolt-go/jolt"
 )
 
 const (

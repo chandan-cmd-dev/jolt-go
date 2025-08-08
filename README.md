@@ -61,12 +61,12 @@ Benefits:
 
 ### Install
 ```bash
-go get github.com/yourname/jolt-go
+go get github.com/chandan-cmd-dev/jolt-go
 ```
 
 ### Encode / decode
 ```go
-import "github.com/yourname/jolt-go/jolt"
+import "github.com/chandan-cmd-dev/jolt-go/jolt"
 
 // Any Go value (map[string]any, structs, slices…)
 blob, err := jolt.EncodeBinary(v)  // to canonical JOLT‑B
@@ -194,7 +194,7 @@ w.Header().Set("ETag", etag)
 
 ### Library
 ```go
-import "github.com/yourname/jolt-go/joltsec"
+import "github.com/chandan-cmd-dev/jolt-go/joltsec"
 
 key := make([]byte, 32)            // fetch from KMS/HSM in prod
 for i := range key { key[i] = byte(i) }
